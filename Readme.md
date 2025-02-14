@@ -19,9 +19,11 @@ Create a file called game.json in the same folder as the application. This file 
 }
 ```
 
+Then just run the application!
+
 ## Output
 
-The program will output a list of all "valid" Wordle guesses given the information you've provided. This takes into consideration:
+The application will output a list of all "valid" Wordle guesses given the information you've provided. This takes into consideration:
 
 1. The guesses played so far
 2. The found characters so far
