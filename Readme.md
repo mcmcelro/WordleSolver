@@ -19,6 +19,8 @@ Create a file called game.json in the same folder as the application. This file 
 }
 ```
 
+(The length of the puzzle is determined from the length of the 'Found' string.)
+
 Then just run the application!
 
 ## Output
