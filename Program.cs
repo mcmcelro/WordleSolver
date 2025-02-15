@@ -21,6 +21,8 @@ if (game != null)
         }
     });
 
+    game.Alphabet = string.Join(string.Empty, (game.Alphabet + game.Found.Replace("_", string.Empty)).Distinct());
+
     placeCharacters(answer, 0);
     guesses.ToList().ForEach(Console.WriteLine);
 }
